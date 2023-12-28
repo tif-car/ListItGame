@@ -90,6 +90,9 @@ int computerGuess(){
 int main(){
   LinkedList newlist;
   char game;
+  cout << "List It is a game where you need to guess 10 numbers from 1-10" << endl;
+  cout << "If the computer guesses the same number as you, you lose" << endl;
+  cout << "You need to create a list of 10 numbers before the computer guesses your number" << endl;
   cout << "Want to play list it? (y/n)" << endl;
   cin >> game;
 
